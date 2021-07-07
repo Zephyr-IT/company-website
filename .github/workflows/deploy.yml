@@ -33,5 +33,6 @@ jobs:
         run: npm install -g surge
       
       - name: deploy to surge
+        working-directory: ./frontend
         run: surge ./build zephyr-it.surge.sh --token ${{secrets.TOKEN}}
         
