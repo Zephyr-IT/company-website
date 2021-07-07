@@ -13,27 +13,27 @@ import logo from "./images/zephyr_transparent.png";
 export default function App() {
   return (
     <Router>
-      <Header />
+      <header>
+        <div className="container">
+          <Link to="/">
+            <img src={logo} alt="logo" className="logo" height="120px" />
+          </Link>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/about">About Us</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/quote">Get a Quote</Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">
-                <img src={logo} alt="logo" />
-              </Link>
-            </li>
-            <li>
-              <Link to="/about">About Us</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/quote">Get a Quote</Link>
-            </li>
-          </ul>
-        </nav>
-
         <Switch>
           <Route path="/about">
             <AboutUs />
