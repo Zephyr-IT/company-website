@@ -12,8 +12,6 @@ jobs:
     steps:
       #checks out repository
       - uses: actions/checkout@v2
-        with:
-          project: './frontend'
       
       #install node version 12
       - uses: actions/setup-node@v2-beta
