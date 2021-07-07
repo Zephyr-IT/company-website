@@ -4,8 +4,6 @@ jobs:
   security:
     runs-on: ubuntu-latest
     steps:
-      - name: install Snyk
-      - run: npm install -g snyk
     
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
