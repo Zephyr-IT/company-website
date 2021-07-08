@@ -2,10 +2,10 @@
 
 body {
   margin: 0;
+  padding: 0;
   background: #ebe9e9;
   font-family: "Work Sans", sans-serif;
   font-weight: 800;
-  overflow-y: hidden;
 }
 
 .container {
@@ -92,4 +92,56 @@ nav a::before {
 
 nav a:hover::before {
   width: 100%;
+}
+
+footer {
+  background: rgb(63, 25, 124);
+  color: white;
+}
+
+footer h1 {
+  color: rgb(95, 27, 204);
+  text-align: left;
+}
+
+footer h4 {
+  padding: 0px;
+}
+
+table {
+  width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+footer img {
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer td {
+  padding: 9px;
+}
+
+.icon {
+  height: 20px;
+  padding-right: 4px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+}
+
+.footer-nav {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-nav:hover {
+  color: lightgrey;
 }
