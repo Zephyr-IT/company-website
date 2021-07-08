@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import AboutUs from "./components/about_us/about_us";
 import Footer from "./components/footer/footer";
-import Header from "./components/header/header";
 import Projects from "./components/projects/projects";
 import Quote from "./components/quote/quote";
 import Home from "./components/home/home";
