@@ -1,9 +1,95 @@
-* {
-  box-sizing: border-box;
-  margin: 50px;
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
+
+body {
+  margin: 0;
+  background: #ebe9e9;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  overflow-y: hidden;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  margin-top: 20px;
+  float: right;
+}
+
+nav ul {
+  margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: honeydew;
-  color: purple;
-  text-align: center;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: rgb(107, 105, 105);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav button {
+  border-radius: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(70, 68, 68);
+  color: white;
+  box-shadow: 2px 2px 7px grey;
+}
+
+nav button a {
+  color: white;
+}
+
+nav button a:hover {
+  color: rgb(169, 63, 207);
+}
+
+nav a:hover {
+  color: rgb(119, 39, 148);
+}
+
+nav a::before {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: rgb(119, 39, 148);
+
+  position: absolute;
+  bottom: -5px;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
 }
