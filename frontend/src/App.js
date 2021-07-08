@@ -8,6 +8,7 @@ import Header from "./components/header/header";
 import Projects from "./components/projects/projects";
 import Quote from "./components/quote/quote";
 import Home from "./components/home/home";
+import Contact from "./components/contact_us/contact_us";
 import logo from "./images/zephyr_transparent.png";
 
 export default function App() {
@@ -16,7 +17,7 @@ export default function App() {
       <header>
         <div className="container">
           <Link to="/">
-            <img src={logo} alt="logo" className="logo" height="120px" />
+            <img src={logo} alt="logo" className="logo" height="90px" />
           </Link>
           <nav>
             <ul>
@@ -27,8 +28,12 @@ export default function App() {
                 <Link to="/projects">Projects</Link>
               </li>
               <li>
-                <Link to="/quote">Get a Quote</Link>
+                <Link to="/contact">Contact us</Link>
               </li>
+
+              <button>
+                <Link to="/quote">Get a Quote</Link>
+              </button>
             </ul>
           </nav>
         </div>
@@ -40,6 +45,9 @@ export default function App() {
           </Route>
           <Route path="/projects">
             <Projects />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/quote">
             <Quote />
