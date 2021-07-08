@@ -1,1 +1,29 @@
+name: Deploy to Surge
 
+on:
+  pull_request:
+    branches:
+      - development
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+  
+    steps:
+      #checks out repository
+      - uses: actions/checkout@v2
+      
+      #install node version 12
+      - uses: actions/setup-node@v2-beta
+        with:
+          node-version: '12'
+      
+      #install npm packages
+      - name: install packages
+        working-directory: ./frontend
+        run: npm install
+      
+      #Build react app
+      - name: Build application
+        working-directory: ./frontend
+        run: npm run build
