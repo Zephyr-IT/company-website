@@ -74,14 +74,14 @@ nav button a:hover {
 }
 
 nav a:hover {
-  color: rgb(66, 8, 88);
+  color: rgb(119, 39, 148);
 }
 
 nav a::before {
   content: "";
   display: block;
   height: 5px;
-  background-color: rgb(66, 8, 88);
+  background-color: rgb(119, 39, 148);
 
   position: absolute;
   bottom: -5px;
