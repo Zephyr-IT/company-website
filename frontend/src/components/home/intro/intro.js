@@ -4,7 +4,7 @@ import stockPhoto from "../../../images/introStockPhoto.jpg";
 const Intro = () => {
   return (
     <div className="intro-bg">
-      <img className="img" src={stockPhoto} height="420px" />
+      <img className="img" alt="stockimage" src={stockPhoto} height="420px" />
       <h1 className="zephyr">Zephyr</h1>
       <h3 className="zephyr-sub">Full stack web solutions</h3>
 
