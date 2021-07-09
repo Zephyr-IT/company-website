@@ -1,11 +1,14 @@
 import "./intro.css";
+import stockPhoto from "../../../images/introStockPhoto.jpg";
 
 const Intro = () => {
   return (
     <div className="intro-bg">
-      <h1>Zephyr</h1>
-      <h3>Full stack web solutions</h3>
-      <p>
+      <img className="img" src={stockPhoto} height="420px" />
+      <h1 className="zephyr">Zephyr</h1>
+      <h3 className="zephyr-sub">Full stack web solutions</h3>
+
+      <p className="text-info">
         We are a young team of developers and
         <br />
         designers, looking to deliver higher quality
@@ -13,7 +16,9 @@ const Intro = () => {
         software faster.
       </p>
 
-      <button>Read more</button>
+      <button className="button">
+        <p className="button-text">Read more</p>
+      </button>
     </div>
   );
 };

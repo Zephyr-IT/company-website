@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Neuropol Nova";
-  src: url("../fonts/NeuropolNovaRegular.ttf");
+  font-family: "Neuropol X Rg";
+  src: url("./neuropolx.ttf");
 }
 
 @font-face {
   font-family: "Como";
-  src: url(../fonts/Como.ttf);
+  src: url("./Como.ttf");
 }

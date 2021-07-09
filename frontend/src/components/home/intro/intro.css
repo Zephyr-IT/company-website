@@ -4,3 +4,64 @@
   padding-left: 80px;
   padding-right: 80px;
 }
+
+.img {
+  float: right;
+}
+
+.zephyr {
+  font-size: 61px;
+  font-family: "Neuropol x Rg";
+  color: rgb(68, 46, 180);
+  margin-bottom: -25px;
+  text-transform: uppercase;
+}
+
+.zephyr-sub {
+  font-size: 30px;
+  font-family: "Neuropol x Rg";
+  color: rgb(71, 69, 80);
+  text-transform: uppercase;
+}
+
+.text-info {
+  font-family: "Como";
+  text-align: left;
+  font-size: 25px;
+  color: rgb(122, 119, 140);
+  line-height: 1.2;
+}
+
+.button-text {
+  font-size: 22.281px;
+  font-family: "Como";
+  color: rgb(255, 255, 255);
+  line-height: 0.8;
+  text-align: center;
+  -moz-transform: matrix(1.06363636363636, 0, 0, 1.14, 0, 0);
+  -webkit-transform: matrix(1.06363636363636, 0, 0, 1.14, 0, 0);
+  -ms-transform: matrix(1.06363636363636, 0, 0, 1.14, 0, 0);
+}
+
+.button {
+  border-radius: 13px;
+  background-image: linear-gradient(
+    -90deg,
+    rgb(68, 46, 180) 10%,
+    rgb(190, 105, 235) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    -90deg,
+    rgb(68, 46, 180) 10%,
+    rgb(190, 105, 235) 100%
+  );
+  background-image: -ms-linear-gradient(
+    -90deg,
+    rgb(68, 46, 180) 10%,
+    rgb(190, 105, 235) 100%
+  );
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.5);
+  width: 263px;
+  height: 64px;
+  margin-bottom: 20px;
+}
