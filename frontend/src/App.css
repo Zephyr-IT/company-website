@@ -3,7 +3,6 @@
 body {
   margin: 0;
   padding: 0;
-  background: #ebe9e9;
   font-family: "Work Sans", sans-serif;
   font-weight: 800;
 }
@@ -95,7 +94,7 @@ nav a:hover::before {
 }
 
 footer {
-  background: rgb(63, 25, 124);
+  background: rgb(29, 20, 75);
   color: white;
 }
 

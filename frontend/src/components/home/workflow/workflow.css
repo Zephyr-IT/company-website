@@ -1,0 +1,36 @@
+@import url(../../../fonts/fonts.css);
+
+.workflow-bg {
+  background: rgb(242, 241, 244);
+  padding: 5px;
+  text-align: center;
+}
+
+.our-workflow {
+  font-size: 61px;
+  font-family: "Neuropol Nova";
+  color: rgb(71, 69, 80);
+}
+
+.workflow-sub {
+  font-family: "Como";
+  font-size: 25px;
+  color: rgb(68, 46, 180);
+}
+
+.table-header {
+  font-family: "Como";
+  text-align: center;
+  font-size: 30px;
+  color: rgb(122, 119, 140);
+  line-height: 1.2;
+  width: 30%;
+}
+
+.text-info {
+  font-family: "Como";
+  text-align: left;
+  font-size: 25px;
+  color: rgb(122, 119, 140);
+  line-height: 1.2;
+}
