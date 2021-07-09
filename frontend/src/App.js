@@ -70,7 +70,7 @@ export default function App() {
                   <td>
                     <img src={phone} alt="phone" className="icon" />
                   </td>
-                  <td>+316 612345678</td>
+                  <td>+316 12345678</td>
                 </tr>
                 <tr>
                   <td>
