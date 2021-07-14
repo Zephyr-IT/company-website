@@ -43,8 +43,11 @@
 }
 
 .tableCol {
-  width: 23rem;
-  margin: 15px;
+  max-width: 350px;
+  min-width: 200px;
+  width: auto;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 #tableAlign {

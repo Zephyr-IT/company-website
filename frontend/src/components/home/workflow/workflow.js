@@ -61,7 +61,10 @@ const Workflow = () => {
             </tr>
             <tr>
               <td className="text-info">
-                <p>test</p>
+                <p>
+                  We offer some of the best rates in the industry, get a quote
+                  today!
+                </p>
               </td>
             </tr>
           </table>
