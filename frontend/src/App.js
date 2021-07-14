@@ -61,7 +61,7 @@ export default function App() {
       </div>
       <div>
         <footer>
-          <table>
+          <table className="table">
             <tr>
               <td className="footer-left">
                 <img src={logo} alt="logo" height="150px" />
