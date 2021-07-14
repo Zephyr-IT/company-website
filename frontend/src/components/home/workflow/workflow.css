@@ -37,13 +37,14 @@
   color: rgb(122, 119, 140);
   line-height: 1.2;
   padding: 3%;
+
   background: white;
   border-radius: 10px;
 }
 
 .tableCol {
-  width: 300px;
-  margin: 5rem;
+  width: 23rem;
+  margin: 15px;
 }
 
 #tableAlign {
