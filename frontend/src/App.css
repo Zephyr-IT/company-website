@@ -64,6 +64,7 @@ nav button {
   box-shadow: 2px 2px 7px grey;
   font-family: "Como";
   font-size: 25px;
+  margin: 10px;
 }
 
 nav button a {
@@ -83,7 +84,6 @@ nav li a::before {
   display: block;
   height: 5px;
   background-color: rgb(119, 39, 148);
-
   position: absolute;
   bottom: -5px;
   width: 0%;
@@ -109,7 +109,7 @@ footer h4 {
   padding: 0px;
 }
 
-table {
+.table {
   width: 100%;
   padding-left: 3%;
   padding-right: 3%;

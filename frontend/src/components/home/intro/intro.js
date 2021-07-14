@@ -8,7 +8,7 @@ const Intro = () => {
       <h1 className="zephyr">Zephyr</h1>
       <h3 className="zephyr-sub">Full stack web solutions</h3>
 
-      <p className="text-info">
+      <p className="text">
         We are a young team of developers and
         <br />
         designers, looking to deliver higher quality

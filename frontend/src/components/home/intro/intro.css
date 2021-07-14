@@ -1,8 +1,8 @@
 .intro-bg {
   background: rgb(255, 255, 255);
   padding: 5px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 5%;
+  padding-right: 3%;
 }
 
 .img {
@@ -24,7 +24,7 @@
   text-transform: uppercase;
 }
 
-.text-info {
+.text {
   font-family: "Como";
   text-align: left;
   font-size: 25px;
