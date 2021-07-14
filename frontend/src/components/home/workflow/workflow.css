@@ -4,6 +4,7 @@
   background: rgb(242, 241, 244);
   padding: 5px;
   text-align: center;
+  width: 100%;
 }
 
 .our-workflow {
@@ -25,13 +26,33 @@
   font-size: 30px;
   color: rgb(122, 119, 140);
   line-height: 1.2;
-  width: 30%;
+  height: 90px;
 }
 
 .text-info {
   font-family: "Como";
-  text-align: left;
+  text-align: center;
+  vertical-align: text-top;
   font-size: 25px;
   color: rgb(122, 119, 140);
   line-height: 1.2;
+  padding: 3%;
+  background: white;
+  border-radius: 10px;
+}
+
+.tableCol {
+  width: 400px;
+  margin: 20px;
+}
+
+#tableAlign {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexTable {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
 }
