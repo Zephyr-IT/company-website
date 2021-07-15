@@ -1,6 +1,6 @@
 // imports
 // custom libraries
-const userModel = require('./models/userModel.js');
+const userModel = require('../models/userModel.js');
 
 let users = [
     {ID: 1, Username: "Max"},

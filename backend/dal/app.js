@@ -2,8 +2,8 @@
 const express = require('express');
 const app = express();
 // custom libraries
-const users = require('./tables/users.js'); // this file contains all the userdata crud functions
-const invoices = require('./tables/invoices.js'); // this file contains all the invoice data crud functions
+const users = require('./tables/crud/users.js'); // this file contains all the userdata crud functions
+const invoices = require('./tables/crud/invoices.js'); // this file contains all the invoice data crud functions
 // current port
 const port = process.env.port || 3000;
 
