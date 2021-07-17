@@ -1,4 +1,4 @@
-name: Deploy to Surge
+name: Initiate test build
 
 on:
   push:
