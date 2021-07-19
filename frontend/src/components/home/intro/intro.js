@@ -1,5 +1,6 @@
 import "./intro.css";
 import stockPhoto from "../../../images/introStockPhoto.jpg";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
@@ -16,9 +17,11 @@ const Intro = () => {
         software faster.
       </p>
 
-      <button className="button">
-        <p className="button-text">Read more</p>
-      </button>
+      <Link to="/about">
+        <button className="button">
+          <p className="button-text">Read more</p>
+        </button>
+      </Link>
     </div>
   );
 };
