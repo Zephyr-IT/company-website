@@ -76,7 +76,9 @@ export default function App() {
                   <td>
                     <img src={mail} alt="mail" className="icon" />
                   </td>
-                  <td>subject@to.change</td>
+                  <td>
+                    <a href="mailto:subject@to.change">subject@to.change</a>
+                  </td>
                 </tr>
               </td>
               <td className="footer-right">
