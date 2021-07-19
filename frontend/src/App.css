@@ -55,16 +55,21 @@ nav a {
 
 nav button {
   border-radius: 18px;
+  border: 0px;
   padding-top: 2px;
   padding-bottom: 2px;
   padding-left: 20px;
   padding-right: 20px;
   background: rgb(70, 68, 68);
   color: white;
-  box-shadow: 2px 2px 7px grey;
   font-family: "Como";
   font-size: 25px;
   margin: 10px;
+}
+
+nav button:hover {
+  background: rgb(39, 39, 39);
+  box-shadow: 2px 2px 7px grey;
 }
 
 nav button a {
@@ -72,7 +77,7 @@ nav button a {
 }
 
 nav button a:hover {
-  color: rgb(169, 63, 207);
+  color: white;
 }
 
 nav a:hover {
@@ -98,6 +103,7 @@ nav a:hover::before {
 footer {
   background: rgb(29, 20, 75);
   color: white;
+  font-family: "Como";
 }
 
 footer h1 {
@@ -127,7 +133,7 @@ footer td {
 
 .icon {
   height: 20px;
-  padding-right: 4px;
+  margin-right: 0.8rem;
 }
 
 .footer-left {
