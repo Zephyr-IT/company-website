@@ -2,6 +2,7 @@ import "./workflow.css";
 import code from "../../../images/computerGradient.png";
 import design from "../../../images/webDesignGradient.png";
 import price from "../../../images/lowPriceGradient.png";
+import { Link } from "react-router-dom";
 
 const Workflow = () => {
   return (
@@ -22,12 +23,10 @@ const Workflow = () => {
             <tr>
               <td className="text-info">
                 <p>
-                  All of our custom products are built from scratch, giving the
+                  All of our custom products are coded from scratch, giving the
                   customer full freedom in the structure and design of their
-                  desired product. We achieve this by applying best practices in
-                  software development like automated testing, short cycled
-                  feedback loops with our customers, and fast, automated
-                  deployment of our products.
+                  desired product. We aim to achieve this by applying certain
+                  best practices in software development.
                 </p>
               </td>
             </tr>
@@ -44,9 +43,9 @@ const Workflow = () => {
               <td className="text-info">
                 <p>
                   Our designers make use of collablorative workspaces to get
-                  their creative juices flowing as a team. During the design
-                  phase of the project we will emphasise involving the customer
-                  as much as possible
+                  their creative juices flowing as a team.
+                  <br /> During the design phase of the project we will
+                  emphasise involving the customer as much as possible.
                 </p>
               </td>
             </tr>
@@ -62,8 +61,15 @@ const Workflow = () => {
             <tr>
               <td className="text-info">
                 <p>
-                  We offer some of the best rates in the industry, get a quote
-                  today!
+                  We offer some of the best rates in the industry. To get a
+                  quote, simply fill in this{" "}
+                  <Link id="formLink" to="/quote">
+                    form
+                  </Link>
+                  .<br />
+                  Filling in the form will take approximately 5 minutes. After
+                  we recieved the quote our team will reach out to you within 48
+                  hours.
                 </p>
               </td>
             </tr>
