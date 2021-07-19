@@ -1,7 +1,13 @@
 const Quote = () => {
   return (
     <div>
-      <h1>Quote</h1>
+      <form>
+        <input type="text" placeholder="Details" />
+        <select>
+          <option>static website</option>
+          <option>webshop</option>
+        </select>
+      </form>
     </div>
   );
 };
