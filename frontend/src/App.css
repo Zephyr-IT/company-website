@@ -104,6 +104,18 @@ footer {
   background: rgb(29, 20, 75);
   color: white;
   font-family: "Como";
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerAlign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  float: right;
+  width: 80%;
 }
 
 footer h1 {
@@ -116,19 +128,20 @@ footer h4 {
 }
 
 .table {
-  width: 100%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-top: 10px;
+  vertical-align: text-top;
+  padding-left: 8%;
 }
 
 footer img {
   margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
-  vertical-align: middle;
 }
 
 footer td {
-  padding: 9px;
+  margin: 5%;
+  vertical-align: middle;
 }
 
 footer a {
@@ -142,15 +155,8 @@ footer a:hover {
 
 .icon {
   height: 20px;
-  margin-right: 0.8rem;
-}
-
-.footer-left {
-  float: left;
-}
-
-.footer-right {
-  float: right;
+  margin-right: 0.3rem;
+  vertical-align: middle;
 }
 
 .footer-nav {
