@@ -1,5 +1,44 @@
+@import url(../../../fonts/fonts.css);
+
 .team-bg {
   background: rgb(225, 222, 231);
   padding: 5px;
   text-align: center;
+  font-family: "Como";
+  font-size: 23px;
+}
+
+.staffTables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teamUpper {
+  font-family: "Neuropol X Rg";
+  font-size: 61px;
+  color: rgb(71, 69, 80);
+  margin-bottom: -25px;
+}
+
+.teamSub {
+  font-family: "Como";
+  font-size: 23px;
+  color: rgb(68, 46, 180);
+  font-weight: bold;
+  vertical-align: text-top;
+}
+
+.staff {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.staffUpper {
+  color: rgb(71, 69, 80);
+  margin-bottom: -25px;
+}
+
+.staffSub {
+  color: rgb(68, 46, 180);
 }

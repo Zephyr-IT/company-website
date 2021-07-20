@@ -24,30 +24,28 @@
   font-family: "Como";
   text-align: center;
   font-size: 30px;
-  color: rgb(122, 119, 140);
+  color: rgb(88, 87, 95);
   line-height: 1.2;
   height: 90px;
 }
 
 .text-info {
   font-family: "Como";
-  text-align: center;
+  text-align: left;
   vertical-align: text-top;
-  font-size: 25px;
+  font-size: 23px;
   color: rgb(122, 119, 140);
   line-height: 1.2;
   padding: 3%;
-
-  background: white;
-  border-radius: 10px;
 }
 
 .tableCol {
-  max-width: 350px;
-  min-width: 200px;
-  width: auto;
-  margin-right: 40px;
-  margin-left: 40px;
+  max-width: 400px;
+  min-width: 300px;
+  margin: 3rem;
+  background: white;
+  border-radius: 10px;
+  padding-top: 20px;
 }
 
 #tableAlign {
@@ -58,5 +56,12 @@
 .flexTable {
   display: flex;
   flex-wrap: wrap;
-  padding: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  justify-content: center;
+}
+
+#formLink {
+  text-decoration: none;
+  color: rgb(68, 46, 180);
 }

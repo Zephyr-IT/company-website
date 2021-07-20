@@ -13,6 +13,7 @@ import instagram from "./images/instagram.png";
 import twitter from "./images/twitter.png";
 import mail from "./images/mail.png";
 import phone from "./images/phone.png";
+import linkedin from "./images/linkedin.png";
 
 export default function App() {
   return (
@@ -59,68 +60,65 @@ export default function App() {
           </Route>
         </Switch>
       </div>
-      <div>
-        <footer>
+      <footer>
+        <img src={logo} alt="logo" height="150px" />
+        <div className="footerAlign">
           <table className="table">
             <tr>
-              <td className="footer-left">
-                <img src={logo} alt="logo" height="150px" />
-
-                <tr>
-                  <td>
-                    <img src={phone} alt="phone" className="icon" />
-                  </td>
-                  <td>+316 12345678</td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src={mail} alt="mail" className="icon" />
-                  </td>
-                  <td>subject@to.change</td>
-                </tr>
-              </td>
-              <td className="footer-right">
-                <tr>
-                  <td>
-                    <p>
-                      <Link to="/about" className="footer-nav">
-                        About us
-                      </Link>
-                    </p>
-                    <p>
-                      <Link to="/projects" className="footer-nav">
-                        Projects
-                      </Link>
-                    </p>
-                    <p>
-                      <Link to="/quote" className="footer-nav">
-                        Get a quote
-                      </Link>
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>&nbsp;</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>Follow us:</p>
-                    <a href="https://instagram.com" target="blank">
-                      <img src={instagram} alt="instagram" className="icon" />
-                    </a>
-                    <a href="https://twitter.com" target="blank">
-                      <img src={twitter} alt="twitter" className="icon" />
-                    </a>
-                    <a href="https://facebook.com" target="blank">
-                      <img src={facebook} alt="facebook" className="icon" />
-                    </a>
-                  </td>
-                </tr>
+              <td>
+                <p>
+                  <img src={phone} alt="phone" className="icon" /> +316 12345678{" "}
+                  <br />
+                  <img src={mail} alt="mail" className="icon" />{" "}
+                  <a href="mailto:subject@to.change">subject@to.change</a>
+                </p>
               </td>
             </tr>
           </table>
-        </footer>
-      </div>
+          <table className="table">
+            <tr>
+              <td>
+                <p>
+                  Follow us: <br />
+                  <a href="https://instagram.com" target="blank">
+                    <img src={instagram} alt="instagram" className="icon" />
+                  </a>
+                  <a href="https://twitter.com" target="blank">
+                    <img src={twitter} alt="twitter" className="icon" />
+                  </a>
+                  <a href="https://facebook.com" target="blank">
+                    <img src={facebook} alt="facebook" className="icon" />
+                  </a>
+                  <a href="https://linkedin.com" target="blank">
+                    <img src={linkedin} alt="linkedin" className="icon" />
+                  </a>
+                </p>
+              </td>
+            </tr>
+          </table>
+          <table className="table">
+            <tr>
+              <td>
+                <p>
+                  <Link to="/about" className="footer-nav">
+                    About us
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/projects" className="footer-nav">
+                    Projects
+                  </Link>
+                </p>
+                <p>
+                  <Link to="/quote" className="footer-nav">
+                    Get a quote
+                  </Link>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </footer>
     </Router>
   );
 }

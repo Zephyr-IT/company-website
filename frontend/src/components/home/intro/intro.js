@@ -1,12 +1,13 @@
 import "./intro.css";
 import stockPhoto from "../../../images/introStockPhoto.jpg";
+import { Link } from "react-router-dom";
 
 const Intro = () => {
   return (
     <div className="intro-bg">
       <img className="img" alt="stockimage" src={stockPhoto} height="420px" />
       <h1 className="zephyr">Zephyr</h1>
-      <h3 className="zephyr-sub">Full stack web solutions</h3>
+      <h3 className="zephyr-sub">Full stack IT solutions</h3>
 
       <p className="text">
         We are a young team of developers and
@@ -16,9 +17,11 @@ const Intro = () => {
         software faster.
       </p>
 
-      <button className="button">
-        <p className="button-text">Read more</p>
-      </button>
+      <Link to="/about">
+        <button className="button">
+          <p className="button-text">Read more</p>
+        </button>
+      </Link>
     </div>
   );
 };
