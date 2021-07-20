@@ -18,19 +18,6 @@ const Team = () => {
             />
           </tr>
           <tr>
-            <h5 className="staffUpper">Connor van Wissen</h5>
-            <p className="staffSub">Web designer</p>
-          </tr>
-        </table>
-        <table className="staff">
-          <tr>
-            <ReactRoundedImage
-              image={baseAvatar}
-              borderRadius="100"
-              roundedSize="0"
-            />
-          </tr>
-          <tr>
             <h5 className="staffUpper">Dave Wolfs</h5>
             <p className="staffSub">Full Stack Developer</p>
           </tr>
