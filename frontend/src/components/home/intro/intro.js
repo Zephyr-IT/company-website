@@ -7,7 +7,7 @@ const Intro = () => {
     <div className="intro-bg">
       <img className="img" alt="stockimage" src={stockPhoto} height="420px" />
       <h1 className="zephyr">Zephyr</h1>
-      <h3 className="zephyr-sub">Full stack web solutions</h3>
+      <h3 className="zephyr-sub">Full stack IT solutions</h3>
 
       <p className="text">
         We are a young team of developers and
